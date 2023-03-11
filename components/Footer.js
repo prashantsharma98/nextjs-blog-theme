@@ -80,7 +80,9 @@ const ThemeSwitcher = () => {
 export default function Footer({ copyrightText }) {
   return (
     <footer className="py-16 flex flex-col items-center">
-      <form name="contact" method="POST" data-netlify="true">
+
+
+      <form name="contact" method="POST" netlify>
         <p>
           <label>
             Your Name: <input type="text" name="name" />
